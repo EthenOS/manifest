@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="ethen" remote="https://github.com/EthenOS" />
+	<remote name="freertos" remote="https://github.com/FreeRTOS" />
+
+	<project name="FreeRTOS-Kernel" remote="freertos" path="kernel" upstream="main"/>
+</manifest>
