@@ -3,5 +3,5 @@
 	<remote name="ethen" fetch="https://github.com/EthenOS" />
 	<remote name="freertos" fetch="https://github.com/FreeRTOS" />
 
-	<project name="FreeRTOS-Kernel" remote="freertos" path="kernel" revision="V11.2.O" />
+	<project name="FreeRTOS-Kernel" remote="freertos" path="kernel" revision="0adc196d4bd52a2d91102b525b0aafc1e14a2386" /> <!-- FreeRTOS v11.2.0  -->
 </manifest>
