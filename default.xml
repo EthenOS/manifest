@@ -2,5 +2,6 @@
 <manifest>
 	<remote name="ethen" fetch="https://github.com/EthenOS" />
 	<remote name="freertos" fetch="https://github.com/FreeRTOS" />
-	<project name="FreeRTOS-Kernel" remote="freertos" path="kernel" upstream="main" />
+
+	<project name="FreeRTOS-Kernel" remote="freertos" path="kernel" revision="V11.2.O" />
 </manifest>
