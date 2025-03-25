@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="ethen" fetch="https://github.com/EthenOS" />
-	<remote name="freertos" fetch="https://github.com/FreeRTOS" />
+    <remote name="freertos" fetch="https://github.com/FreeRTOS" />
 
-	<project name="FreeRTOS-Kernel" remote="freertos" path="kernel" revision="0adc196d4bd52a2d91102b525b0aafc1e14a2386" /> <!-- FreeRTOS v11.2.0  -->
+    <default revision="refs/heads/main" remote="ethen" sync-c="true" sync-j="4" />
+
+    <project name="FreeRTOS-Kernel" remote="freertos" path="kernel" revision="0adc196d4bd52a2d91102b525b0aafc1e14a2386" /> <!-- FreeRTOS v11.2.0  -->
+    <project name="source_frameworks_base" path="frameworks/base">
+        <linkfile src="kernel/" dest="frameworks/base/kernel" />
+    </project>
 </manifest>
