@@ -3,7 +3,7 @@
 	<remote name="ethen" fetch="https://github.com/EthenOS" />
     <remote name="freertos" fetch="https://github.com/FreeRTOS" />
 
-    <remote name="stm" fetch="https://github.com/STMicroelectronics">
+    <remote name="stm" fetch="https://github.com/STMicroelectronics" />
 
     <default revision="refs/heads/main" remote="ethen" sync-c="true" sync-j="4" />
 
