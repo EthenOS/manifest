@@ -7,4 +7,5 @@
 
     <project name="FreeRTOS-Kernel" remote="freertos" path="kernel" revision="0adc196d4bd52a2d91102b525b0aafc1e14a2386" /> <!-- FreeRTOS v11.2.0  -->
     <project name="source_frameworks_base" path="frameworks/base" />
+    <project name="source_frameworks_build" path="frameworks/build">
 </manifest>
