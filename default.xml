@@ -8,7 +8,7 @@
     <default revision="refs/heads/main" remote="ethen" sync-c="true" sync-j="4" />
 
     <project name="FreeRTOS-Kernel" remote="freertos" path="kernel/base" />
-    <project name="stm32-mw-freertos" remote="stm" path="kernel/stm" />
+    <project name="stm32-mw-freertos" remote="stm" path="kernel/stm" revision="refs/heads/master" />
     <project name="source_frameworks_base" path="frameworks/base" />
     <project name="source_frameworks_build" path="frameworks/build" />
 </manifest>
