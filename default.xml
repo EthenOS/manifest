@@ -3,9 +3,12 @@
 	<remote name="ethen" fetch="https://github.com/EthenOS" />
     <remote name="freertos" fetch="https://github.com/FreeRTOS" />
 
+    <remote name="stm" fetch="https://github.com/STMicroelectronics" />
+
     <default revision="refs/heads/main" remote="ethen" sync-c="true" sync-j="4" />
 
-    <project name="FreeRTOS-Kernel" remote="freertos" path="kernel" revision="0adc196d4bd52a2d91102b525b0aafc1e14a2386" /> <!-- FreeRTOS v11.2.0  -->
+    <project name="FreeRTOS-Kernel" remote="freertos" path="kernel/base" revision="0adc196d4bd52a2d91102b525b0aafc1e14a2386" /> <!-- FreeRTOS v11.2.0  -->
+    <project name="stm32-mw-freertos" remote="stm" path="kernel/stm" revision="e41c220a37adbb55b59dca704def6e73d6258b95" /> <!-- v10.6.2_20241011  -->
     <project name="source_frameworks_base" path="frameworks/base" />
     <project name="source_frameworks_build" path="frameworks/build">
 </manifest>
