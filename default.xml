@@ -14,6 +14,6 @@
 
     <project name="source_frameworks_base" path="frameworks/base" />
     <project name="source_frameworks_build" path="frameworks/build">
-        <linkfile src="frameworks/build/cheesecake" dest="cheesecake" />
+        <linkfile src="cheesecake" dest="cheesecake" />
     </project>
 </manifest>
