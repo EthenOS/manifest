@@ -13,5 +13,7 @@
     <project name="source_device_ethen_watch" remote="ethen" />
 
     <project name="source_frameworks_base" path="frameworks/base" />
-    <project name="source_frameworks_build" path="frameworks/build" />
+    <project name="source_frameworks_build" path="frameworks/build">
+        <linkfile src="cheesecake" dest="frameworks/build/cheesecake" />
+    </project>
 </manifest>
