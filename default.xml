@@ -16,4 +16,6 @@
     <project name="source_frameworks_build" path="frameworks/build">
         <linkfile src="cheesecake" dest="cheesecake" />
     </project>
+    
+    <project name="source_hardware_st" path="hardware/st" />
 </manifest>
